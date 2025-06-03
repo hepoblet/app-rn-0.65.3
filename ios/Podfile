@@ -25,7 +25,8 @@ target 'app65' do
   # Fix Flipper versions to ensure compatibility and stability
   use_flipper!({
     'Flipper' => '0.125.0',
-    'Flipper-Glog' => '0.5.0.5'
+    'Flipper-Folly' => '2.6.10',
+    'Flipper-Glog' => '0.5.0.5',
   })
 
   post_install do |installer|

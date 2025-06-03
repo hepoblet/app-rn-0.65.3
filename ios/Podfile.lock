@@ -16,13 +16,13 @@ PODS:
   - Flipper-Boost-iOSX (1.76.0.1.11)
   - Flipper-DoubleConversion (3.1.7)
   - Flipper-Fmt (7.1.7)
-  - Flipper-Folly (2.6.7):
+  - Flipper-Folly (2.6.10):
     - Flipper-Boost-iOSX
     - Flipper-DoubleConversion
     - Flipper-Fmt (= 7.1.7)
     - Flipper-Glog
     - libevent (~> 2.1.12)
-    - OpenSSL-Universal (= 1.1.180)
+    - OpenSSL-Universal (= 1.1.1100)
   - Flipper-Glog (0.5.0.5)
   - Flipper-PeerTalk (0.0.4)
   - Flipper-RSocket (1.4.3):
@@ -71,20 +71,20 @@ PODS:
   - FlipperKit/SKIOSNetworkPlugin (0.125.0):
     - FlipperKit/Core
     - FlipperKit/FlipperKitNetworkPlugin
-  - fmt (6.2.1)
+  - fmt (7.1.3)
   - glog (0.3.5)
   - libevent (2.1.12)
-  - OpenSSL-Universal (1.1.180)
+  - OpenSSL-Universal (1.1.1100)
   - RCT-Folly (2021.04.26.00):
     - boost-for-react-native
     - DoubleConversion
-    - fmt (~> 6.2.1)
+    - fmt (~> 7.1.3)
     - glog
     - RCT-Folly/Default (= 2021.04.26.00)
   - RCT-Folly/Default (2021.04.26.00):
     - boost-for-react-native
     - DoubleConversion
-    - fmt (~> 6.2.1)
+    - fmt (~> 7.1.3)
     - glog
   - RCTRequired (0.65.3)
   - RCTTypeSafety (0.65.3):
@@ -347,7 +347,7 @@ DEPENDENCIES:
   - Flipper-Boost-iOSX (= 1.76.0.1.11)
   - Flipper-DoubleConversion (= 3.1.7)
   - Flipper-Fmt (= 7.1.7)
-  - Flipper-Folly (= 2.6.7)
+  - Flipper-Folly (= 2.6.10)
   - Flipper-Glog (= 0.5.0.5)
   - Flipper-PeerTalk (= 0.0.4)
   - Flipper-RSocket (= 1.4.3)
@@ -479,16 +479,16 @@ SPEC CHECKSUMS:
   Flipper-Boost-iOSX: fd1e2b8cbef7e662a122412d7ac5f5bea715403c
   Flipper-DoubleConversion: 57ffbe81ef95306cc9e69c4aa3aeeeeb58a6a28c
   Flipper-Fmt: 60cbdd92fc254826e61d669a5d87ef7015396a9b
-  Flipper-Folly: 83af37379faa69497529e414bd43fbfc7cae259a
+  Flipper-Folly: 584845625005ff068a6ebf41f857f468decd26b3
   Flipper-Glog: 70c50ce58ddaf67dc35180db05f191692570f446
   Flipper-PeerTalk: 116d8f857dc6ef55c7a5a75ea3ceaafe878aadc9
   Flipper-RSocket: d9d9ade67cbecf6ac10730304bf5607266dd2541
   FlipperKit: cbdee19bdd4e7f05472a66ce290f1b729ba3cb86
-  fmt: ff9d55029c625d3757ed641535fd4a75fedc7ce9
+  fmt: 332e3819af8f4ae9c0ae1ae28dcfaaf45f95e107
   glog: 5337263514dd6f09803962437687240c5dc39aa4
   libevent: 4049cae6c81cdb3654a443be001fb9bdceff7913
-  OpenSSL-Universal: 1aa4f6a6ee7256b83db99ec1ccdaa80d10f9af9b
-  RCT-Folly: 0dd9e1eb86348ecab5ba76f910b56f4b5fef3c46
+  OpenSSL-Universal: ebc357f1e6bc71fa463ccb2fe676756aff50e88c
+  RCT-Folly: c36b704b64eae17d9339a25c806a20b5b48aff4b
   RCTRequired: 655e18b89b599c17ee55d288359f96d5600c9004
   RCTTypeSafety: 6eb5f6ebeac6a9e448d1c8a802a48a4e8ffce178
   React: d28999caca83846964d5ba42a76d2b477502aa88
@@ -515,6 +515,6 @@ SPEC CHECKSUMS:
   Yoga: 8ae716bf8b654fac1c7be1ac81376041837acb2c
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
-PODFILE CHECKSUM: fac04620fd5d7012da963c8c043f3ab49e9b4bfe
+PODFILE CHECKSUM: b8b34523666ced80cd424b3bb52177942016fdd7
 
 COCOAPODS: 1.10.1
