@@ -29,6 +29,14 @@ target 'app65' do
   })
 
   post_install do |installer|
+    installer.pods_project.targets.each do |target|
+      # Fix RCT-Folly build settings for C++14 compatibility
+      if target.name == 'RCT-Folly'
+        target.build_configurations.each do |config|
+          config.build_settings['CLANG_CXX_LANGUAGE_STANDARD'] = 'c++14'
+        end
+      end
+    end
     react_native_post_install(installer)
   end
 end

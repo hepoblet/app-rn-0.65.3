@@ -3356,6 +3356,19 @@ index 33f70e8..09fb3fc 100644
          (collectedFlexItemsValues.remainingFreeSpace < 0));
  
      // STEP 6: MAIN-AXIS JUSTIFICATION & CROSS-AXIS SIZE DETERMINATION
+diff --git a/node_modules/react-native/scripts/find-node.sh b/node_modules/react-native/scripts/find-node.sh
+index c498ba6..3ee107d 100755
+--- a/node_modules/react-native/scripts/find-node.sh
++++ b/node_modules/react-native/scripts/find-node.sh
+@@ -6,6 +6,8 @@
+ 
+ set -e
+ 
++unset PREFIX
++
+ # Support Homebrew on M1
+ HOMEBREW_M1_BIN=/opt/homebrew/bin
+ if [[ -d $HOMEBREW_M1_BIN && ! $PATH =~ $HOMEBREW_M1_BIN ]]; then
 diff --git a/node_modules/react-native/third-party-podspecs/RCT-Folly.podspec b/node_modules/react-native/third-party-podspecs/RCT-Folly.podspec
 index a47e393..5e8a4b9 100644
 --- a/node_modules/react-native/third-party-podspecs/RCT-Folly.podspec
