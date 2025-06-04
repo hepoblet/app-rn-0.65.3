@@ -485,16 +485,16 @@ SPEC CHECKSUMS:
   glog: 5337263514dd6f09803962437687240c5dc39aa4
   libevent: 4049cae6c81cdb3654a443be001fb9bdceff7913
   OpenSSL-Universal: 1aa4f6a6ee7256b83db99ec1ccdaa80d10f9af9b
-  RCT-Folly: c36b704b64eae17d9339a25c806a20b5b48aff4b
+  RCT-Folly: 7fa5a96e499e1d33aded281e9da4c0152932cf84
   RCTRequired: 655e18b89b599c17ee55d288359f96d5600c9004
   RCTTypeSafety: 6eb5f6ebeac6a9e448d1c8a802a48a4e8ffce178
   React: d28999caca83846964d5ba42a76d2b477502aa88
   React-callinvoker: fef7210edb8bc0900cd04dcf3f27c4c1da2b54eb
-  React-Core: c67cde24c57654c3712faa5a94b78159a7dc0372
+  React-Core: 7caf77b666ed87453e61a2d82cb6d0256da2cbf1
   React-CoreModules: fefae9f3eeafec2521a6b97b4108652cc43e7858
-  React-cxxreact: 04436f72ab795df356f038f55c38b49435a70f9a
-  React-jsi: 0ab20c9070bc28cd99a200e826ce7cf46e8f5b26
-  React-jsiexecutor: d7540b187f30f45281ece995f19dde143e3afff3
+  React-cxxreact: 71aeb3807e16d87c7925b530f9710610a62acb9a
+  React-jsi: 3b696242a267e8a84e959ca16d89b711c495ab81
+  React-jsiexecutor: e6aca37224090cb640f10ebb7c82b8f510f058b5
   React-jsinspector: 94bbad998be4efbdac7d6d152677bdd134c1c980
   React-perflogger: f8205b59ccf68dbe4184e71ac7b4db55ea0c8965
   React-RCTActionSheet: 67b50ddfccbc123dcc7574475e4fdc911cc601d7
@@ -507,11 +507,11 @@ SPEC CHECKSUMS:
   React-RCTText: a1f88c670ca99e5d173059cc871ff03d565c2be4
   React-RCTVibration: a19175b1a97cbad173a032a5d089ec5784b2bac3
   React-runtimeexecutor: 5ebf1c985947ea684140fe8431b5b4921c2960c1
-  ReactCommon: 3a88b42affa0809e2524f978700a22841b04a421
+  ReactCommon: a25745122f547ba14103e5d73dc1c9fa9d3c494b
   SocketRocket: d4aabe649be1e368d1318fdf28a022d714d65748
   SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
   Yoga: 8ae716bf8b654fac1c7be1ac81376041837acb2c
 
 PODFILE CHECKSUM: 7a9e9859fc511869ccd22e50d46f1ccc3f753798
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.16.2
